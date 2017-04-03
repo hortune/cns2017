@@ -24,16 +24,21 @@ def find_hex(string):
             break 
         i+=1
     return str(i)
-print len(common_pre+h1+str('11111111'))
-conn = remote("140.112.31.109",10001)
-k = conn.recvuntil(':')[-7:-1]
-i = find_hex(k)
-print k
 
-conn.sendline(common_pre+h1+str(i))
-conn.sendline(common_pre+h2+str(i))
-print conn.recvline()
-print conn.recvline()
+def solve():
+    conn = remote("140.112.31.109",10001)
+    k = conn.recvuntil(':')[-7:-1]
+    i = find_hex(k)
+    conn.sendline((common_pre+h2+i).encode("hex"))
+    gg =  conn.recvline()
+    if "faster" in gg:
+        return 0
+    conn.sendline((common_pre+h1+i).encode("hex"))
+    print conn.recvline()
+    exit()
+
+while True:
+    solve()
 """
 key = find_hex(k)
 conn.sendline(common_pre+h1+str(i))
