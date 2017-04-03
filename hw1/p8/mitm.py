@@ -38,7 +38,7 @@ if __name__ == '__main__':
         g = pow(pwd, 2, p)
         
         b = random.randint(2, p)
-        B = pow(g, b ,p)    
+        B = pow(g, b ,p)
         print "Server sends:", B
 
         A = int(raw_input("Generate 'a' and send A = g^a mod p to the server: "))
