@@ -40,8 +40,10 @@ key = []
 for pos in rc:
     key.append(pos[0])
 
-def gen(key,messages):
+def gen():
     _key = ''.join(map(chr,key))
     for i in range(0,len(messages)):
         print xor_string(_key,messages[i].decode('hex'))
-
+key[0]=126
+def modify(row,column,target):
+    key[column]=ord(messages[row].decode("hex")[column])^ord(target)
