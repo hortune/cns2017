@@ -1,3 +1,4 @@
+All the code is writen in python2.7 syntax with pwntools 
 # code4.py
 first open ipython
 Then type %load code4.py to load the script.
@@ -14,4 +15,6 @@ then the last one is by base64
 just solve it by ("string").decode("base64")
 
 # code5.py
+python code5.py
 
+#
