@@ -17,4 +17,12 @@ just solve it by ("string").decode("base64")
 # code5.py
 python code5.py
 
-#
+# code7.py
+python code7.py
+
+# code8.py
+python code8.py
+it would run for a pretty long time.
+
+# code9.py
+
