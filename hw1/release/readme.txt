@@ -17,6 +17,18 @@ just solve it by ("string").decode("base64")
 # code5.py
 python code5.py
 
+# code6.py
+ipython
+%load code6.py
+
+then use gen()
+to see the result
+
+use modify*(row,column,target) to make the location to your hope value
+target is a char
+
+since it needs some english background knowledge, we need to do it artificially
+
 # code7.py
 python code7.py
 
