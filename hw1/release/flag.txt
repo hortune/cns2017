@@ -1,7 +1,12 @@
-
-
-level 6 : fence encoding
-
-level 7 : base64 encoding
-
+problem 4
 BALSN{C14$5ic41_c!ph3r_1$_r34lly_cl455ic41}
+problem 5
+BALSN{D0NT_7RU57_SHA1_NOW}
+problem 6
+BALSN{using a key one time is not enough, have you tried using it twice?}
+problem 7
+BALSN{black magic number}
+problem 8
+BALSN{Wow_you_are_really_in_the_middle}
+problem 9
+BALSN{LLLLLLLENTH_EXTENSION_ATTACKKKKKKKKKKK!!!}
