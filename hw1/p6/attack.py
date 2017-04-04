@@ -44,3 +44,4 @@ def gen(key,messages):
     _key = ''.join(map(chr,key))
     for i in range(0,len(messages)):
         print xor_string(_key,messages[i].decode('hex'))
+
