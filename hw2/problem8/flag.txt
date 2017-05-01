@@ -1,3 +1,7 @@
 1. BALSN{Don't underestimate the power of the Dark Web}
 2. 128.199.198.162
-3. 
+3. 140.112.31.96
+
+torsocks ssh-keyscan ztczadd4tipwhwyl.onion 2>/dev/null
+ssh-keygen -l -E md5 -f /tmp/xyz
+
