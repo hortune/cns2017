@@ -1,0 +1,3 @@
+To run the attack, please use
+bash crack.sh
+it requires gmpy and libnum

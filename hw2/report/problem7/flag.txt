@@ -1,0 +1,2 @@
+openssl rsautl -decrypt -inkey private.pem -in flag.enc -out key.bin
+BALSN{Now_you_know_the_secret}
