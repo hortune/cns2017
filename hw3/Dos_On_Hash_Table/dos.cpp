@@ -5,7 +5,7 @@ int main() {
     unordered_map<int, int> ht;
     int n;
     cin >> n;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < 50000; i++) {
         int x;
         cin >> x;
         ht[x] = i;
