@@ -12,6 +12,7 @@ shift = 1<<17
 se = set([])
 sed = []
 j = 0
+print(50000)
 while True:
 	print (j+shift)
 	sed.append(j)
