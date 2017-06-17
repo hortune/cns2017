@@ -1,0 +1,1 @@
+python exploit.py encrypted_flag_folder_path backup_flag_folder_path
