@@ -3,5 +3,5 @@ gg = "2d2d62336463326335343531396234333762623432353535663334393165376333360d0a43
 
 
 gg = gg[104:]
-with open("gg.png","w") as fd:
+with open("flag.png","w") as fd:
 	fd.write(gg)
